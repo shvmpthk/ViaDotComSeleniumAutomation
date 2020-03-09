@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ViaComSuite" >
+
+<listeners>
+<listener class-name="com.via.base.TestReport"></listener>
+</listeners>
+
+<parameter name="browser" value="firefox"></parameter>
+<parameter name="domain" value="https://in.via.com"></parameter>
+
+<!--  SignIn Test -->
+  <!--<test name="Test1">
+ <classes>
+ 		<class name="com.via.base.SignInTest"/>
+ </classes>
+ </test>-->
+
+<!-- Flight Test -->
+  <!--<test name="Test2">
+  <classes>
+ 		<class name="com.via.flight.FlightBookingTest"/>
+ </classes>
+ </test>-->
+ 
+ <!--Hotel Test  -->
+  <!--<test name="Test3">
+  <classes>
+ 		<class name="com.via.hotel.HotelTest"></class>
+ </classes>
+ </test>-->
+ 
+ <!--Bus Test  -->
+  <test name="Test4">
+  <classes>
+ 		<class name="com.via.bus.BusBookingTest"/>
+ </classes>
+ </test>
+  
+  <!--Holiday Test  -->
+  <!--<test name="Test5">
+  <classes>
+ 		<class name="com.via.holiday.BookHolidayTest"></class>
+ </classes>
+ </test> -->
+
+<!-- firefox  -->
+   <!-- 
+   	<parameter name="browser" value="firefox"></parameter>
+ 	<test name="Test6">Flight firefox Test
+  <classes>
+ 		<class name="com.via.flight.FlightBookingTest"></class>
+ </classes>
+ </test>
+  -->
+  </suite>
